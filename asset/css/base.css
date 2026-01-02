@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --font:"Arima", system-ui;
+    --color1:#FF589E;
+    --color2:#9C5BDA;
+    --color3:#767676;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.box-title{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-title > p{
+    font-size: 16px;
+    padding: 20px 0 40px 0;
+    font-weight: 200;
+}
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+    
+}
+@media screen and (max-width:768px){
+    
+}
+@media screen and (max-width:576px){
+    
+}
