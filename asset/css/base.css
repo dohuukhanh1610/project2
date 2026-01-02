@@ -39,5 +39,8 @@ a{
     
 }
 @media screen and (max-width:576px){
-    
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
